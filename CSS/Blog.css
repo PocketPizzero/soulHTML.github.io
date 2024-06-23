@@ -1,0 +1,29 @@
+main {
+padding: 15em 10em;
+align-items: center;
+}
+aside{
+    font-size: 2em;
+    background-color: #222223;
+    color: #f4f4ff;
+    padding: 6em 3em;
+    position: fixed;
+    top: 15em;
+    left: 2em;
+}
+.articulos-container{
+    font-size: 1.5em;
+    padding-left: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    gap: 2em;
+}
+.articulo{
+    max-width: 100%;
+    text-align: center;
+    background-image: linear-gradient(135deg, #0F4485 10%, #d91e2e 90%);
+    color: #f4f4ff;
+    padding: 2em;
+}

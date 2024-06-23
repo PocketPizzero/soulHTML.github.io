@@ -1,0 +1,71 @@
+/*InfoGeneral*/
+.Introduccion {
+    color: #f4f4f7;
+    text-align: center;
+    align-items: center;
+    padding: 8em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    font-size: 2.5em;
+}
+#video-fondo{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    z-index: -10;
+}
+/*InfoGeneral*/
+.InfoGeneral section{
+    padding: 3em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(135deg, #0F4485 10%, #d91e2e 90%);
+    color: #f4f4f7;
+}
+.InfoGeneral article {
+    padding: 0em 3em;
+    font-size: 2em;
+}
+/*ResumenProductos*/
+.ResumenProductos {
+    text-align: center;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+.Equipos, .Productos{
+    width: 40em;
+}
+.ResumenProductos img{
+    width: 30em;
+}
+.ResumenProductos h2{
+    font-size: 3em;
+}
+.ResumenProductos p{
+    font-size: 2em;
+}
+ /*
+    background-image: url('/Images/Inicio\ Combate\ RED\ 3.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #D91E2E;
+    color: #f4f4f7;
+    
+    background-image: url('/Images/Producto\ Rashguard\ Blue.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0f4485;
+    color: #f4f4f7;*/
+.Equipos{
+    background-color: #D91E2E;
+    color: #f4f4f7;
+}
+.Productos{
+    background-color: #0f4485;
+    color: #f4f4f7;
+}

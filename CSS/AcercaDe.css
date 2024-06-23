@@ -1,0 +1,24 @@
+main{
+    padding-top: 15em ;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.AcercaDe{
+    background-image: linear-gradient(135deg, #0F4485 10%, #d91e2e 90%);
+}
+.AcercaDe section{
+    color: #f4f4f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AcercaDe section article{
+    font-size: 2em;
+}
+.AcercaDe section article, .AcercaDe section figure{
+    padding: 5em 5em;
+}
+.Fotografia figure img{
+    width: 20em;
+}

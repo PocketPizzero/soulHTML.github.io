@@ -1,0 +1,41 @@
+main{
+    padding: 12em 12em;
+}
+#Historia{
+    align-items: center;
+    font-size: 1.3em;
+}
+#Taekwondo{
+    align-items: center;
+    font-size: 1.3em;
+}
+#Mision_Vision{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.5em;
+    color: #f4f4f7;
+    gap: 2em;
+}
+#Mision{
+    background-image: radial-gradient(circle, #D91E2E 45%, #bf0062 100%);
+    padding: 2em;
+}
+#Vision{
+    background-image: radial-gradient(circle, #0f4485 45%, #138494 100%);
+    padding: 2em;
+}
+#Valores{
+    padding: 1.2em 2em;
+    font-size: 1.5em;
+    background-image: linear-gradient(135deg, #0F4485 10%, #d91e2e 90% );
+    color: #f4f4f7;
+    text-align: center;
+    
+}
+#Valores ul, #valores li{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
